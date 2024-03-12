@@ -13,6 +13,71 @@ body {
     padding: 100px 0;
 }
 
+/* ...other styles... */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.nav-logo {
+    color: white;
+    font-size: 24px;
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: red;
+}
+
+.banner {
+    /* Adjust the padding if needed to accommodate the navigation bar */
+    padding: 150px 0;
+}
+
+.banner-content h1 {
+    font-size: 48px; /* Larger font size for the name */
+    margin: 0;
+}
+
+.banner-content p {
+    font-size: 24px; /* Larger font size for the subtitle/tagline */
+    margin: 0;
+}
+
+/* ...other styles... */
+
+@media (max-width: 768px) {
+    /* ...other responsive styles... */
+
+    .nav-logo {
+        font-size: 20px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    .banner-content h1 {
+        font-size: 32px;
+    }
+
+    .banner-content p {
+        font-size: 18px;
+    }
+}
+
+
 .projects {
     padding: 50px;
     background-color: #f5f5f5;
