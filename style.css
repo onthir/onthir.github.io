@@ -6,7 +6,7 @@ body {
 }
 
 .banner {
-    background-image: url('banner-image.jpg');
+    background-image: url('images/banner.jpg');
     background-size: cover;
     color: white;
     text-align: center;
